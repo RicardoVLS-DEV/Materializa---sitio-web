@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materializa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Materializa</h1>
+        <p>Transforma tus ideas en realidad</p>
+        <a href="#contact" class="btn">Contáctanos</a>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Materializa es tu plataforma para materializar proyectos de manera rápida y sencilla.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Materializa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
